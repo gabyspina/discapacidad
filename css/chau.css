@@ -1,0 +1,152 @@
+footer {
+  background-image: -webkit-radial-gradient(#9898ec, white); }
+  footer .footer {
+    display: flex;
+    justify-content: space-between; }
+  footer .redes {
+    list-style: none;
+    display: flex;
+    flex-direction: row; }
+  footer .linkedin {
+    width: 250px; }
+  footer #insta, footer #face {
+    height: 30px;
+    margin: 5px; }
+
+/**** Inicio ****/
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+header {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqX_e7dfGqPvS5jpKdhlRkw56aenwV7IpJ8Q&usqp=CAU);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none; }
+  header a {
+    text-decoration: none;
+    color: #050550; }
+
+.primerMenu {
+  background-image: -webkit-radial-gradient(#9898ec, white); }
+  .primerMenu a {
+    color: #050550; }
+
+/**** Index ****/
+#contenedorResolucion {
+  height: 30vh;
+  border: solid #050550;
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-s107-td-17045_1.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=b6210a99a92a3fd03f9b783bfd42e342);
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #contenedorResolucion .portadaResoluciones {
+    display: flex;
+    align-items: center; }
+    #contenedorResolucion .portadaResoluciones #local {
+      text-decoration: none;
+      color: #050550; }
+
+#contenedorPrestaciones {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm232-wan-16_8.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=5f95296a5ddd24eadcbce79ea42d0a25); }
+  #contenedorPrestaciones #local2 a {
+    text-decoration: none;
+    color: #050550; }
+
+/* Legales */
+#legal {
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk61815815-wikimedia-image.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=8f324494a83578c13eac723fc856957e);
+  height: 15vh; }
+  #legal .titLegales {
+    display: flex;
+    justify-content: center; }
+
+.menuLegales {
+  background-image: -webkit-radial-gradient(#9898ec, white);
+  display: flex;
+  justify-content: center; }
+  .menuLegales .submenu {
+    color: #050550;
+    text-decoration: none; }
+
+.contenedorDisca {
+  background-image: radial-gradient(blue, white);
+  color: #050550; }
+  .contenedorDisca .tipos {
+    display: flex;
+    justify-content: center; }
+
+#tiposDisca #texto {
+  width: 90%;
+  margin-top: 5%; }
+  #tiposDisca #texto p {
+    width: 80%; }
+
+.contenedorTipo {
+  background-image: radial-gradient(green, white);
+  color: #050550; }
+  .contenedorTipo .tipos {
+    display: flex;
+    justify-content: center; }
+
+#acuerdos {
+  display: flex;
+  justify-content: center; }
+
+/* Prestaciones */
+.prestaciones {
+  background-image: url(../multimedia/imagenes/doctor-paciente_1421-64.jpg);
+  color: #050550;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  border: sienna solid;
+  text-align: center; }
+  .prestaciones #tituloGeneral {
+    display: flex;
+    justify-content: center; }
+  .prestaciones a {
+    text-decoration: none; }
+
+.estilos {
+  display: inline-block; }
+
+#agrupado {
+  border: solid black;
+  display: flex;
+  align-items: center; }
+
+/*Planillas*/
+.seccionPlanillas {
+  background-image: url(../multimedia/imagenes/carrera.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .seccionPlanillas #recuadro {
+    color: #050550;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px blue;
+    padding-left: 30%;
+    padding-right: 30%; }
+    .seccionPlanillas #recuadro #tituloPlanillas {
+      display: flex;
+      justify-content: center; }
+    .seccionPlanillas #recuadro .tituloEducativas {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-weight: bolder; }
+    .seccionPlanillas #recuadro .menuPlanillas {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      color: #050550; }
+      .seccionPlanillas #recuadro .menuPlanillas a {
+        list-style: none;
+        text-decoration: none;
+        color: #7070e7;
+        text-decoration: solid; }

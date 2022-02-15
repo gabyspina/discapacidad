@@ -1,0 +1,183 @@
+@import "variablecolor";
+@import "footer";
+
+
+/**** Inicio ****/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}    
+header{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqX_e7dfGqPvS5jpKdhlRkw56aenwV7IpJ8Q&usqp=CAU);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    a{
+        text-decoration: none;
+        color: $azul;
+    }
+}
+.primerMenu{
+    background-image: -webkit-radial-gradient(rgb(152, 152, 236), white) ;
+    a{
+        color: $azul;
+    }
+}
+
+/**** Index ****/ 
+
+#contenedorResolucion{
+    height: 30vh;
+    border: solid $azul;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-s107-td-17045_1.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=b6210a99a92a3fd03f9b783bfd42e342);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .portadaResoluciones{
+        display: flex;
+        align-items: center;
+
+            #local{
+                text-decoration: none;
+                color: $azul ;
+            }   
+        }
+    }
+
+#contenedorPrestaciones{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm232-wan-16_8.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=5f95296a5ddd24eadcbce79ea42d0a25);
+        #local2{
+            a{
+            text-decoration: none;
+            color: $azul;
+        }
+        }   
+    }
+
+    /* Legales */
+#legal{
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk61815815-wikimedia-image.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=8f324494a83578c13eac723fc856957e);
+    height: 15vh;
+    .titLegales{
+        display: flex;
+        justify-content: center;
+}
+}
+.menuLegales{
+    background-image:-webkit-radial-gradient(rgb(152, 152, 236), white) ;
+    display: flex;
+    justify-content: center;
+    .submenu{
+        color: $azul;
+        text-decoration: none;
+    }
+}
+.contenedorDisca{
+    background-image: radial-gradient(blue, white);
+    color: $azul;
+    .tipos{
+        display: flex;
+        justify-content: center;
+    }
+}
+#tiposDisca{
+
+    #texto{
+        width: 90%;
+        margin-top: 5%;
+        p{
+            width: 80%;
+        }
+    }
+}
+.contenedorTipo{
+    background-image: radial-gradient(green, white);
+    color: $azul;
+    .tipos{
+        display: flex;
+        justify-content: center;
+    }
+}
+#acuerdos{
+    display: flex;
+    justify-content: center;
+}
+    /* Prestaciones */
+
+.prestaciones{
+    background-image: url(../multimedia/imagenes/doctor-paciente_1421-64.jpg);
+    color: $azul;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border: sienna solid;
+    text-align: center;
+    #tituloGeneral{
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+.estilos{
+    display: inline-block;
+}
+#agrupado{
+    border: solid black;
+    display: flex;
+    align-items: center;
+}
+
+    /*Planillas*/
+
+.seccionPlanillas{
+    background-image: url(../multimedia/imagenes/carrera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    #recuadro{
+        color: $azul;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px blue;
+        padding-left: 30%;
+        padding-right: 30%;
+
+    
+
+    #tituloPlanillas{
+        display: flex;
+        justify-content:  center;
+ 
+    }
+    .tituloEducativas{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-weight: bolder;
+    }
+    .menuPlanillas{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: $azul;
+    a{
+        list-style: none;
+        text-decoration: none;
+        color: $celeste;
+        text-decoration: solid;
+    }
+    }
+}
+}
+
+.contacto{
+    display: inline;
+}
+

@@ -1,0 +1,33 @@
+/***************
+     MIXINS
+****************/
+@import "variables";
+/*
+Para trabajar eficazmente con mixins, solo se necesitan dos directivas: @mixin e @include: con la primera se crea el modelo, con la segunda se inserta el bloque de código
+*/
+
+/* MIXINS*/
+@mixin tamanio($anchuraa, $altura) {
+    width: $anchuraa;
+    height: $altura;
+ }
+.caja{
+    @include tamanio(500px, 200px);
+}
+.caja--dos{
+    @include tamanio(700px, 400px)
+}
+
+/* EXTENDS */
+.redsocial {
+    border: 1px #f00;
+    background-color: #fdd;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+}
+.redsocial--dos {
+    @extend .redsocial;
+    border: #3a5795;
+}

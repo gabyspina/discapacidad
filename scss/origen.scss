@@ -1,0 +1,56 @@
+// Esto es un comentario de SCSS 
+
+/* Esto es un comentario de CSS PURO */
+/* este comentario va dedicado a Gabriel*/
+// IMPORT
+@import "mixins-extends";
+@import "each";
+@import "bucles";
+@import "condicionales";
+@import "operaciones";
+@import "estructura";
+@import "responsive";
+@import "tipografia";
+
+
+// VARIABLES
+//SINTAXIS ->  $variable: valor;
+$rojo: rgb(104, 16, 16);
+$anchura: 720px; 
+
+// ANIDAMIENTO
+ul {
+    list-style: none;
+    background-color: $rojo;
+    width: $anchura;
+    li {
+        padding: 15px;
+        display: inline-block;
+        &:hover {
+            color: $rojo;
+        }
+        a {
+            text-decoration: none;
+                   font-size: 16px;
+            color: $rojo;
+        }  
+          }   
+   }
+
+.lista {
+    list-style: none;
+    border: solid 1px $rojo;
+    width: $anchura;
+    .itemLista {
+        padding: 15px;
+        display: inline-block;
+        background-color: $rojo;
+        .enlaceLista {
+            text-decoration: none;
+                   font-size: 16px;
+            color: $rojo;
+        }
+          }   
+   }
+   
+

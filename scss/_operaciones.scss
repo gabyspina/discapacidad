@@ -1,0 +1,26 @@
+/***********************
+OPERACIONES
+************************/
+
+@import "variables";
+
+/*************************
+ OPERACIONES ARITMÉTICAS
++ SUMA
+- RESTA
+/ DIVISION
+* MULTIPLICACION
+***************************/
+main {
+    width: $ancho * 2;
+    .cajaUno {
+        background-color: $color-primario;
+        width: $ancho;
+    }
+    .cajaDos {
+        width: $ancho/2;
+    }
+    .cajaTres {
+        width: ($ancho/2) + 60;
+    }
+}

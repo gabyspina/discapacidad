@@ -1,0 +1,19 @@
+/***************
+BUCLES
+****************/
+// @for $variable inicio final {
+// Bloque de reglas repetidas
+// }
+// #{$variable} --> imprimir el valor de la variable
+
+
+@for $var from 3 through 10 {
+    .col-#{$var}{
+        width: 10% * $var;
+    }
+}
+@for $titulo from 1 through 6 {
+    h#{$titulo} {
+        font-size: 3rem / $titulo;
+    }
+}

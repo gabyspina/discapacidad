@@ -1,0 +1,21 @@
+// Footer
+
+
+footer{
+    background-image:-webkit-radial-gradient(rgb(152, 152, 236), white) ;
+    .footer{
+    display: flex;
+    justify-content: space-between;
+    }
+    .redes{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .linkedin{width: 250px;
+    }
+    #insta, #face{
+        height: 30px;
+        margin: 5px;
+    }
+}

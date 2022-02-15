@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqX_e7dfGqPvS5jpKdhlRkw56aenwV7IpJ8Q&usqp=CAU);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.primerMenu{
+    border-bottom: double darkblue;
+    border-top: double darkblue;
+    background-image:-webkit-radial-gradient(rgb(152, 152, 236), white) ;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+.tituloPortada{
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer */
+
+footer{
+    background-image:-webkit-radial-gradient(rgb(152, 152, 236), white) ;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+#insta{
+    height: 30px;
+}
+#face{
+    height: 30px;
+}
+.linkedin{
+    width: 250px;
+}
+
+/* Index */
+
+#contenedorResolucion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedorPrestaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedorResolucion{
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-s107-td-17045_1.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=b6210a99a92a3fd03f9b783bfd42e342);
+    height: 200px;
+}
+
+#contenedorPrestaciones{
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm232-wan-16_8.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=5f95296a5ddd24eadcbce79ea42d0a25);
+    height: 200px;
+}
+#local{
+    display: grid;
+    height: 100px;
+    transition: 3s;
+}
+#local2{
+        display: grid;
+    height: 100px;
+    transition: 3s;
+}
+#local:hover, #local2:hover{
+    background-color: rgba(128, 128, 128, 0.308);
+    padding: 20px;
+}
+
+/* Legales */
+
+#legal{
+    display: flex;
+    height: 20vh;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk61815815-wikimedia-image.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=8f324494a83578c13eac723fc856957e);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: darkblue;
+    text-align: center;
+    }
+
+.menuLegales{
+    justify-content: space-evenly;
+    background-image:-webkit-radial-gradient(rgb(152, 152, 236), white) ;
+}
+
+
+.contenedorDisca{
+    background-image: radial-gradient(blue, white);
+    border: double black;
+}
+.tipos{
+    text-align: center;
+    color: darkblue;
+}
+#tiposDisca{
+    display: flex;
+    align-items: center;
+}
+#circulo{
+    background-color: transparent;
+    border: none;
+
+}
+.contenedorTipo{
+    background-image: radial-gradient(green, white);
+    border: double black;
+}
+#acuerdos{
+    background-color: khaki;
+    color: rgb(4, 4, 73);
+}
+#acuerdo{
+    display: flex;
+    justify-content: center;
+}
+
+/* Prestaciones*/
+
+.seccionPrestaciones{
+    background-image: url(../multimedia/imagenes/doctor-paciente_1421-64.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+    width: 100%;
+}
+.tituloPrestaciones{
+    border: solid black;    
+    display: flex;
+    justify-content: center;
+}
+.menuPresta{
+    display: flex;
+    justify-content: center;
+
+}
+#tituloGeneral{
+    display: flex;
+    justify-content: center;
+    margin-right: 20%;
+    margin-left: 20%
+}
+.prestaciones{
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+.contenedorPrestaciones{
+    border: solid darkslateblue;
+    background-color: rgba(240, 248, 255, 0.308);
+
+}
+
+/* Contacto */
+
+.contacto{
+    background-image: url(../multimedia/imagenes/pexels-markus-winkler-4160128.jpg);
+    background-size: cover;
+    color: darkblue;   
+}
+
+/* Planillas */
+
+.seccionPlanillas{
+    background-image: url(../multimedia/imagenes/carrera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: black solid;
+
+}
+#tituloPlanillas, .tituloEducativas, .menuPlanillas {
+    display: flex;
+    justify-content: center;
+}
+.planillas{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: solid green;
+    background-color: rgba(240, 248, 255, 0.308);
+}
+/* Resoluciones */
+
+.seccionResoluciones{
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm218-mynt-21.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=1e50d87813f8417dfcafa40559fbf6dd);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+    width: 100%;
+}
+.tiempo{
+    width: 100%;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.fechas{
+    border: solid palevioletred;
+    display: flex;
+    justify-content: center;
+
+}

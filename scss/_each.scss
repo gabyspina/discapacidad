@@ -1,0 +1,47 @@
+/****************
+EACH - LISTAS
+@each $variable in // lista elemento1, elemento2, elemento3, etc {
+        Bloque repetido
+}
+*****************/
+@each $lista in /*lista*/caballo, gato, elefante, perro, delfin, pez, ballena, tero {
+    // #{$var}
+    .icono-#{$lista} {
+      background-image: url('img/#{$lista}.jpg');
+    }
+ }
+ /* ejemplo dos */
+ @each $secciones in body, div, aside, section, article, footer {
+    #{$secciones} {
+      background-image: url('./fondos/#{$secciones}.jpg');
+    }
+ }
+
+ /***************
+MAPS
+$variable: (
+    // clave: valor
+        var1: valor1,
+        var2: valor2,
+        var3: valor3    
+);
+***************/
+$colores:(
+    /* clave:  valor*/
+        twitter:   #55acee,
+        facebook:  #3a5795,
+        mail:      #C25E30,
+        instagram: rgb(143, 52, 143),
+        youtube:   red,
+        snapchat:  yellow,
+        linkedin:  rgb(122, 165, 238)
+    );
+//MAPS con each
+// @each clave, valor in mapa {}
+
+@each $nombre, $color in $colores {
+    .boton-#{$nombre} {
+        background-color: $color;
+        border: $color;
+    }
+ }

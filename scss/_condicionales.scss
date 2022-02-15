@@ -1,0 +1,40 @@
+@import "variables";
+
+/*****************
+CONDICIONALES
+COMPARADORES CONDICIONALES
+1er valor == 2do valor / Es valida si es igual 
+1er valor != 2do valor / Es valida si es distinto 
+1er valor < 2do valor / Es valida si es menor 
+1er valor > 2do valor / Es valida si es mayor 
+******************/
+
+// @if condicion {
+    // estilos 
+// } @else if {
+    // estilos
+// } @else {
+    // estilos
+// }
+
+$vista: 900px;
+
+body{
+    @if $vista > $ancho {
+        @media only screen and (min-width:1024px){
+            h1{font-size:$h1Desktop;}
+            h3{font-size:35px;}
+            p{font-size:$parrafoDesktop;}
+            }    
+    } @else if $vista == $ancho {
+        @media only screen and (max-width:767px){
+            h1{font-size:$h1Mobile;}
+            h3{font-size:25px;}
+            p{font-size:$parrafoMobile;}
+        }
+    } @else {
+        h1{font-size:34px;}
+        h3{font-size:25px;}
+        p{font-size:20px;}
+    }
+}
