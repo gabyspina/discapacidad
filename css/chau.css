@@ -154,3 +154,27 @@ header {
 
 .contacto {
   display: inline; }
+
+/*** Resolucion ***/
+.seccionResoluciones {
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm218-mynt-21.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=1e50d87813f8417dfcafa40559fbf6dd);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center; }
+  .seccionResoluciones .tiempo {
+    border: solid black;
+    display: inline-block;
+    background-color: rgba(250, 235, 215, 0.493); }
+    .seccionResoluciones .tiempo #tituloGeneral {
+      display: flex;
+      justify-content: center; }
+    .seccionResoluciones .tiempo .fechas {
+      display: flex;
+      justify-content: center; }
+    .seccionResoluciones .tiempo .menuPresta {
+      display: flex;
+      justify-content: center; }
+      .seccionResoluciones .tiempo .menuPresta a {
+        text-decoration: none;
+        color: #050550; }
