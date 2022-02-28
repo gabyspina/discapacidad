@@ -147,7 +147,7 @@ footer{
     width: 100%;
 }
 .tituloPrestaciones{
-    border: solid black;    
+
     display: flex;
     justify-content: center;
 }
@@ -187,7 +187,7 @@ footer{
     background-image: url(../multimedia/imagenes/carrera.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border: black solid;
+        border: black solid;
 
 }
 #tituloPlanillas, .tituloEducativas, .menuPlanillas {
@@ -218,7 +218,7 @@ footer{
 }
 
 .fechas{
-    border: solid palevioletred;
+
     display: flex;
     justify-content: center;
 
