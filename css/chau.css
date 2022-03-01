@@ -28,11 +28,11 @@ header {
     color: #050550; }
 
 .primerMenu {
-  background-image: -webkit-radial-gradient(#9898ec, white); }
+  background-image: -webkit-radial-gradient(#9898ec, white);
+  display: grid; }
   .primerMenu a {
     color: #050550; }
 
-/*** footer ****/
 /**** Index ****/
 #contenedorResolucion {
   height: 30vh;
@@ -123,7 +123,7 @@ header {
 
 /*Planillas*/
 .seccionPlanillas {
-  background-image: url(../multimedia/imagenes/carrera.jpg);
+  background-image: url(https://cdn.euroinnova.edu.es/img/subidasEditor/pexels-run-ffwpu-1568804-1597750434.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
   .seccionPlanillas #recuadro {
@@ -133,24 +133,24 @@ header {
     border: 1px blue;
     padding-left: 30%;
     padding-right: 30%; }
-    .seccionPlanillas #recuadro #tituloPlanillas {
-      display: flex;
-      justify-content: center; }
-    .seccionPlanillas #recuadro .tituloEducativas {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      font-weight: bolder; }
-    .seccionPlanillas #recuadro .menuPlanillas {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      color: #050550; }
-      .seccionPlanillas #recuadro .menuPlanillas a {
-        list-style: none;
-        text-decoration: none;
-        color: #7070e7;
-        text-decoration: solid; }
+  .seccionPlanillas #tituloPlanillas {
+    display: flex;
+    justify-content: center; }
+  .seccionPlanillas .tituloEducativas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: bolder; }
+  .seccionPlanillas .menuPlanillas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #050550; }
+    .seccionPlanillas .menuPlanillas a {
+      list-style: none;
+      text-decoration: none;
+      color: #7070e7;
+      text-decoration: solid; }
 
 .contacto {
   display: inline; }
@@ -178,3 +178,11 @@ header {
       .seccionResoluciones .tiempo .menuPresta a {
         text-decoration: none;
         color: #050550; }
+
+/** Contacto **/
+form {
+  background-image: url(https://img.lovepik.com/background/20211021/medium/lovepik-letter-paper-background-image_401297030.jpg);
+  background-size: cover;
+  color: #050550;
+  border: solid black;
+  width: 100%; }
